@@ -1,12 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김세실 포트폴리오</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+    </style>
 </head>
-<body>
-  <p>Hello, World!</p>
+<body class="p-6 md:p-12">
+
+    <!-- Main Container -->
+    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+        
+        <!-- Header Section -->
+        <header class="p-8 bg-gray-800 text-white md:flex md:justify-between md:items-center rounded-t-xl">
+            <div>
+                <h1 class="text-4xl font-bold tracking-tight">김세실</h1>
+                <p class="text-xl mt-1 opacity-80">원화 / 컨셉 디자이너</p>
+            </div>
+            <div class="mt-6 md:mt-0 text-right">
+                <p class="text-sm opacity-80">
+                    서울시 동작구 남부순환로 267나길 12, 301호<br>
+                    (+82) 010-4375-2256<br>
+                    cecile.k17@gmail.com
+                </p>
+            </div>
+        </header>
+
+        <main class="p-8 space-y-12">
+
+            <!-- Introduction Section -->
+            <section>
+                <h2 class="text-2xl font-bold mb-4 border-b-2 border-gray-300 pb-2">소개</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    저는 애니메이션을 전공하며 컨셉 스튜디오와 게임사에서 다양한프로젝트를 경험했습니다. 특히 배경, 자연물, 파손된 구조물 등 아트방향성을 제시하는 능력을 키웠고, 'Oh my Anne' 프로젝트에서는 해당파트의 완성도를 높이는 데 기여했습니다.원활한 소통과 협업의 중요성을 중요하게 생각하며 초기 소통 강화, 중간공유, 그리고 AI 툴 활용을 통해 효율성과 팀워크를 모두 높이는 데집중해왔습니다.앞으로도 팀의 목표를 빠르게 파악하고 새로운 아이디어를 제안하며 팀의성과에 적극적으로 기여하는 디자이너로 성장하고 싶습니다.                </p>
+            </section>
+
+            <!-- Experience Section -->
+            <section>
+                <h2 class="text-2xl font-bold mb-6 border-b-2 border-gray-300 pb-2">경력</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-semibold text-lg">네오위즈 / 원화</h3>
+                        <p class="text-sm text-gray-500">2019.09 - 2025.06 (5년 9개월)</p>
+                        <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                            <li>Round 8 Studio – Oh my Anne (3년 11개월)
+                                <ul class="list-none list-inside ml-4">
+                                    <li>빨간머리 앤 IP 3매치 퍼즐게임 / 캐릭터 및 배경 원화 제작</li>
+                                </ul>
+                            </li>
+                            <li>Grilled Onion Studio – Epic Merge Heroes (1년 9개월)
+                                <ul class="list-none list-inside ml-4">
+                                    <li>방치형 머지 RPG / 캐릭터 및 배경 원화 제작</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg">브래니 / 컨셉아트</h3>
+                        <p class="text-sm text-gray-500">2017.02 - 2019.03 (2년 1개월)</p>
+                        <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                            <li>Kooring VR Wonderland
+                                <ul class="list-none list-inside ml-4">
+                                    <li>VR 코딩 교육 게임 / 캐릭터 및 배경 컨셉, 머천다이즈 디자인</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg">부즈클럽 / 디자이너</h3>
+                        <p class="text-sm text-gray-500">2015.10 - 2017.01 (1년 3개월)</p>
+                        <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                            <li>기업 캐릭터 브랜딩, 애니메이션 제작 (우리은행-위비, CU-헤이루, S Oil-구도일패밀리)</li>
+                            <li>좀비 타워 디펜스 게임 / 배경 원화</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg">스튜디오 가게 / 컨셉아트</h3>
+                        <p class="text-sm text-gray-500">2012.11 - 2014.12 (2년 2개월)</p>
+                        <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                            <li>게임, 애니메이션, 국제행사, 테마파크 컨셉</li>
+                            <li>미스터 로봇, 설국열차 프리퀄 애니메이션, 라바 시즌3, 인천 아시안게임 개막</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section>
+                <h2 class="text-2xl font-bold mb-4 border-b-2 border-gray-300 pb-2">학력</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="font-semibold text-lg">경기대학교 / 애니메이션 학사</h3>
+                        <p class="text-sm text-gray-500">2006.03 - 2011.02, 서울캠퍼스</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg">배화여자고등학교</h3>
+                        <p class="text-sm text-gray-500">2003.03 - 2006.02, 서울</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Career Details Section -->
+            <section>
+                <h2 class="text-2xl font-bold mb-6 border-b-2 border-gray-300 pb-2">경력기술서</h2>
+                <div class="space-y-12">
+
+                    <!-- Oh my Anne Project -->
+                    <div>
+                        <h3 class="font-bold text-xl text-gray-800">Oh my Anne / 빨간머리 앤 IP 3매치 퍼즐 게임</h3>
+                        <p class="text-sm text-gray-500">네오위즈 / 원화 / 2021.06 – 2025.06 (3년 11개월)</p>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">주요 업무 및 경험</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>배경, 오브젝트, 캐릭터 원화 및 일러스트 제작</li>
+                                <li>초기 톤앤매너 설정, 자연물·파손 구조물 배경 표현에 강점 인정받아 주요 파트 담당</li>
+                                <li>AI 툴을 활용하여 아이디어 발상 및 작업 효율화 (작업 시간 단축)</li>
+                                <li>Spine용 파일 제작 경험</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">핵심 역량</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>효율적 제작 & 툴 활용: 디테일이 덜 필요한 영역은 가성비 있는 표현 방식을 연구, AI 활용으로 효율 강화 시도 </li>
+                                <li>원활한 협업 & 커뮤니케이션: 초기 소통 강화, 중간 작업 공유, 후반 작업자와의 협의 등을 통해 시행착오 최소화</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-8">
+
+                    <!-- Epic Merge Heroes Project -->
+                    <div>
+                        <h3 class="font-bold text-xl text-gray-800">Epic Merge Heroes - Idle RPG / 방치형 머지 RPG</h3>
+                        <p class="text-sm text-gray-500">네오위즈 / 원화 / 2019.09 – 2021.06 (1년 9개월)</p>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">주요 업무 및 경험</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>캐릭터 및 배경 원화·일러스트 제작</li>
+                                <li>개인작이던 캐릭터 디자인으로 프로젝트 승인</li>
+                                <li>기획 방향 전환으로 전체 아트 콘셉트 재조정 경험</li>
+                                <li>이 과정에서 커뮤니케이션의 중요성을 체감, 협업 방식 개선의 계기 마련</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">핵심 역량</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>세계관 확장: 개인 캐릭터 아이디어를 기반으로 한 세계관 구체화 경험</li>
+                                <li>변화 대응력: 기획 변동에 따른 아트 방향 재조정 및 협업 개선 노력</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-8">
+
+                    <!-- Kooring VR Wonderland Project -->
+                    <div>
+                        <h3 class="font-bold text-xl text-gray-800">Kooring VR Wonderland / VR 코딩 교육 게임</h3>
+                        <p class="text-sm text-gray-500">브래니 / 원화 / 2017.02 – 2019.03 (2년 1개월)</p>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">주요 업무 및 경험</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>캐릭터·배경 컨셉, 일러스트, 아케이드 머신 디자인</li>
+                                <li>소규모 팀 환경에서 각 파트와 긴밀하게 협업, 신속 대응 경험</li>
+                                <li>개발·사업적 요구의 차이를 이해하는 과정 경험</li>
+                                <li>외주 관리 경험 </li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">핵심 역량</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>다양한 파트 협업 경험: 사업·개발 요구를 이해하고 요청 작업 수행</li>
+                                <li>적응력: 빠른 제작 사이클 속에서 유연한 대응 능력 강화</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-8">
+
+                    <!-- Laba Season 3 Project -->
+                    <div>
+                        <h3 class="font-bold text-xl text-gray-800">라바 시즌3: 라바 인 뉴욕 (애니메이션 시리즈)</h3>
+                        <p class="text-sm text-gray-500">Studio GAGE / 컨셉아트(외주) / 2014.01 – 2014.04 (4개월)</p>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">주요 업무 및 경험</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>배경·캐릭터 컨셉아트 작업</li>
+                                <li>뉴욕의 톤앤매너를 기후·빛 연출로 구현</li>
+                                <li>재미있는 오브젝트 활용 아이디어 제시</li>
+                                <li>외주 특성상 제작 커뮤니케이션이 제한되어 세부 가이드라인을 꼼꼼히 첨부</li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">핵심 역량</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>독립적 작업 수행: 에피소드별 전체 컨셉을 담당해 진행</li>
+                                <li>제약사항 파악 및 대안 제시: 커뮤니케이션 제약을 디테일한 가이드로 보완</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-8">
+
+                    <!-- Other Projects (Studio GAGE) -->
+                    <div>
+                        <h3 class="font-bold text-xl text-gray-800">미스터 로봇 (극장판 애니메이션)</h3>
+                        <p class="text-sm text-gray-500">Studio GAGE / 컨셉아트(외주) / 2013</p>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">주요 업무</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>초기 로봇 컨셉 디자인</li>
+                                <li>형태변형이 가능한 구조적 특성을 고려한 다양한 컨셉 제시</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-8">
+
+                     <div>
+                        <h3 class="font-bold text-xl text-gray-800">뛰뛰빵빵구조대 (극장판 애니메이션)</h3>
+                        <p class="text-sm text-gray-500">Studio GAGE / 컨셉아트(외주) / 2013</p>
+                        <div class="mt-4">
+                            <h4 class="font-semibold text-lg">주요 업무</h4>
+                            <ul class="list-disc list-inside mt-1 space-y-1 text-gray-700">
+                                <li>배경 및 캐릭터 컨셉아트 작업</li>
+                                <li>“종이박스 접기” 컨셉을 적용한 놀이동산 배경, 외계인·몬스터 디자인 담당</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div>
+
 </body>
 </html>
